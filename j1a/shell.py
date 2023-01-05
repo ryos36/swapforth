@@ -32,9 +32,9 @@ class TetheredJ1a(swapforth.TetheredTarget):
             while ser.read(1) != chr(10):
                 pass
 
-        waitcr()
-        ser.write(b'\r')
-        waitcr()
+        #waitcr()
+        #ser.write(b'\r')
+        #waitcr()
 
         for c in ' 1 tth !':
             ser.write(c.encode('utf-8'))

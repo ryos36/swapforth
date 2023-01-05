@@ -1,0 +1,45 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/Chat_chat0.v" type="file.verilog" enable="0"/>
+        <File path="src/Transmitter_tx.v" type="file.verilog" enable="0"/>
+        <File path="src/Wrapper_u0.v" type="file.verilog" enable="0"/>
+        <File path="src/axis_conv.v" type="file.verilog" enable="1"/>
+        <File path="src/bufstream.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_hs/fifo_hs.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_hs_psram_to_svo/fifo_hs.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_clkdiv/gowin_clkdiv.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_dpb/gowin_dpb.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_dpb_linebuf/gowin_dpb.v" type="file.verilog" enable="0"/>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_enc.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_hdmi_top.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_openldi.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_pong.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_tcard.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_term.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_tmds.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_utils.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_vdma.v" type="file.verilog" enable="1"/>
+        <File path="src/j1.v" type="file.verilog" enable="1"/>
+        <File path="src/pila.v" type="file.verilog" enable="1"/>
+        <File path="src/psram_memory_interface_hs/psram_memory_interface_hs.v" type="file.verilog" enable="1"/>
+        <File path="src/psraman.v" type="file.verilog" enable="1"/>
+        <File path="src/stack2.v" type="file.verilog" enable="1"/>
+        <File path="src/tgen.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/tp_vga.v" type="file.verilog" enable="1"/>
+        <File path="src/tpg.v" type="file.verilog" enable="1"/>
+        <File path="src/tuser_capture.v" type="file.verilog" enable="1"/>
+        <File path="src/uart.v" type="file.verilog" enable="0"/>
+        <File path="src/uart_master/uart_master.v" type="file.verilog" enable="1"/>
+        <File path="src/wrapper.v" type="file.verilog" enable="1"/>
+        <File path="src/swapforth.cst" type="file.cst" enable="1"/>
+        <File path="src/swapforth.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

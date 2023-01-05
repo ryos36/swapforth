@@ -18,7 +18,7 @@ class Bye(Exception):
     pass
 
 def collect_screenshot(dest, ser):
-    import Image
+    from PIL import Image
     t0 = time.time()
     match = b"!screenshot"
     have = b"X" * len(match)
