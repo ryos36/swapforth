@@ -1,0 +1,2 @@
+set -e
+PYTHONPATH=../../shell:$PYTHONPATH python3 ../shell.py -h `./findserial` -p .. -p ../../common -p ../../anstests swapforth.fs # spi2.fs
